@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+  display: flex;
+  background-color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+main {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(216, 12%, 54%);
+  max-width: 375px;
+  height: 95%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 15% 5%;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2rem;
+  border-radius: 5%;
+}
+
+img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ethereum-and-time {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.eth-text {
+  color: hsl(178, 100%, 50%);
+  margin-left: .5rem;
+}
+
+.clock-and-time {  
+  margin-left: 5rem;
+}
+
+.blue-line {
+  background-color:  hsl(215, 32%, 27%);
+  width: 100%;
+  border: none;
+  height: 2px;
+}
+
+.creation {
+  display: flex;
+  margin-top: .5rem;
+  margin-left: -.5rem;
+}
+
+.creation-text{
+  margin-left: .8rem;  
+}
+
+.avatar-container {
+  width: 2rem;
+}
+
+.creator-name {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
